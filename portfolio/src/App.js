@@ -1,6 +1,9 @@
 import './App.css';
 import Intro from './components/intro'
-import { BrowserRouter, Route, Routes } from 'react-router';
+import Projects from './pages/projects';
+import Certificate from './pages/certificates'
+import About from './pages/about';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
@@ -8,7 +11,9 @@ function App() {
       <BrowserRouter>
       <Intro />
       <Routes>
-        <Route></Route>
+        <Route path="/pages/about" element={<About />} />
+        <Route path="/pages/certificates" element={<Certificate />} /> 
+        <Route path="/pages/projects" element={<Projects />} />
       </Routes>
       </BrowserRouter>
     </div>

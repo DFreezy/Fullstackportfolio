@@ -1,8 +1,8 @@
 import React from 'react'
-import { useEffect, useState } from 'react'
+{/*import { useEffect, useState } from 'react'*/}
 
 export default function Projects(){
-    useEffect(() => {
+    {/*useEffect(() => {
         fetch("https://portfolio-api-lj21.onrender.com")
         .then(response => response.json())
         .then(json => {
@@ -11,7 +11,7 @@ export default function Projects(){
     .catch(error => {
         console.error("Error fetching data: ", error)
     })
-    }, []);
+    }, []);*/}
 
     return (
 <div>

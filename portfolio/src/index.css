@@ -30,3 +30,23 @@
     border-right: 2px solid black;
     animation: typing 5s steps(30) 1s forwards, blink 0.75s stepend infinite
 }
+
+:root {
+    --ff-primary: 'Source Sans Pro', sans-serif; /* Primary font family */
+    --ff-secondary: 'Source Code Pro', monospace; /* Secondary font family */
+    
+    --fw-reg: 300; /* Regular font weight */
+    --fw-bold: 900; /* Bold font weight */
+    
+    --clr-light: #0cc4e4; /* Light color */
+    --clr-dark: #000000; /* Dark color */
+    --clr-accent: #45e016; /* Accent color */
+    
+    --fs-h1: 3rem; /* Heading 1 font size */
+    --fs-h2: 2.25rem; /* Heading 2 font size */
+    --fs-h3: 1.25rem; /* Heading 3 font size */
+    --fs-body: 1rem; /* Body font size */
+    
+    --bs: 0.25em 0.25em 0.75em rgba(0,0,0,.25), /* Box shadow */
+          0.125em 0.125em 0.25em rgba(0,0,0,.15);
+}
